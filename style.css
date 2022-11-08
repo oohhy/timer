@@ -34,6 +34,7 @@ body {
 
 /* 버튼 디자인 */
 button {
+  padding: 15.5px 23px;
   width: 112px;
   height: 48px;
   border-radius: 50px;
@@ -130,7 +131,17 @@ button {
   margin: 44px 8px 0;
 }
 
-.timer-btn-start {
+.timer-btn {
+  display: flex;
+  flex-direction: row;
+}
+
+.timer-btn-start,
+.timer-btn-reset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
   margin-right: 12px;
 }
 
