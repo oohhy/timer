@@ -4,7 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>타이머</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1 class="timer-header">
+        <img
+          class="timer-header-img"
+          src="./src/weniv-logo.svg"
+          alt="위니브 로고 이미지"
+        />
+      </h1>
+      <section class="timer">
+        <h2 class="timer-title">TIMER</h2>
+        <div class="timer-time">
+          <div class="timer-time-h">
+            <h3 class="time-type">HRS</h3>
+            <div class="time-display time-display-h">00</div>
+          </div>
+          <img class="dot" src="./src/dot.png" alt="" />
+          <div class="timer-time-m">
+            <h3 class="time-type">MIN</h3>
+            <div class="time-display time-display-m">00</div>
+          </div>
+          <img class="dot" src="./src/dot.png" alt="" />
+          <div class="timer-time-s">
+            <h3 class="time-type">SEC</h3>
+            <div class="time-display time-display-s">00</div>
+          </div>
+        </div>
+        <div class="timer-btn">
+          <button class="timer-btn-start disable">
+            <img src="./src/icon-start-disabled.png" />
+            START
+          </button>
+          <button class="timer-btn-reset disable">
+            <img src="./src/icon-reset-disabled.png" />RESET
+          </button>
+        </div>
+      </section>
+      <p class="footer">ⓒ WENIV Corp.</p>
+    </div>
+  </body>
 </html>
